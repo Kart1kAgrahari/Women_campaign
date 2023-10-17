@@ -57,8 +57,63 @@ footer {
     background-color: pink;
     color: white;
     padding: 10px;
+    position: bottom;
 }
 .carousel-item{
     
     height:400px;
+}
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style individual events */
+.event {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.event img {
+    max-width: 100%;
+    height: auto;
+}
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info h2 {
+    color: #2e5b8e; /* Section title color */
+}
+
+/* Style the contact form section */
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #2e5b8e; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.contact-form button:hover {
+    background-color: #1c4169; /* Button background color on hover */
 }

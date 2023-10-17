@@ -27,21 +27,24 @@
           <main>
             <section id="create-campaign">
                 <h2>Create a New Campaign</h2><br><br>
-                <form action="process_campaign.php" method="POST">
+                <form action="save_campaign.php" method="POST">
                     <label for="campaign-title">Campaign Title:</label>
                     <input type="text" id="campaign-title" name="campaign-title" required><br><br><br>
-                    
+                
                     <label for="campaign-description">Campaign Description:</label>
                     <textarea id="campaign-description" name="campaign-description" rows="4" required></textarea><br><br><br>
-                    
+                
                     <label for="campaign-date">Campaign Date:</label>
                     <input type="date" id="campaign-date" name="campaign-date" required><br><br><br>
-                    
+                
                     <input type="submit" value="Create Campaign">
                 </form>
+                
             </section>
-        </main>
-
+        </main><br><br><br><br><br><br><br>
+        <footer>
+            <p>&copy; 20XX Women Campaign</p>
+        </footer>
 
         <script src="" async defer></script>
     </body>
