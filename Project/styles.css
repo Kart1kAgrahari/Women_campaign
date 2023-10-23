@@ -55,7 +55,7 @@ section {
 footer {
     text-align: center;
     background-color: pink;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 10px;
     position: bottom;
 }
@@ -77,7 +77,14 @@ footer {
     height: auto;
 }
 .contact-info {
-    margin-bottom: 20px;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    
 }
 
 .contact-info h2 {
@@ -109,4 +116,144 @@ footer {
 
 .contact-form button:hover {
     background-color: #1c4169; /* Button background color on hover */
+}
+
+.alert{
+    width: 100%;
+    background: rgb(0, 255, 106);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    display: none;
+}
+.container {
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.alert {
+  display: none;
+  background-color: #4CAF50;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.inputBox {
+  margin-bottom: 15px;
+}
+
+.inputBox input,
+.inputBox textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.inputBox input[type="text"],
+.inputBox input[type="email"] {
+  height: 40px;
+}
+
+.inputBox textarea {
+  height: 150px;
+}
+
+.inputBox button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.inputBox button:hover {
+  background-color: #555;
+}
+
+.container form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputBox{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.inputBox input[type="text"], .inputBox input[type="email"]{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 0px 10px;
+    font-size: 16px;
+    color: #444;
+}
+
+.inputBox textarea{
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 0px 10px;
+    font-size: 16px;
+    color: #444;
+}
+
+.inputBox button{
+    width: 100%;    
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: rgb(0, 119, 255);
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.inputBox button:hover{
+    background: rgb(0, 17, 255);
+    transition: all 0.3s ease;
+}
+
+::placeholder{
+    font-size: 16px;
+}
+
+.alert{
+    width: 100%;
+    background: rgb(0, 255, 106);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    display: none;
 }

@@ -1,64 +1,64 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Contact Us</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <marquee>  <h1>Welcome to Women's Campaign Management System</h1></marquee>
-          </header>
-        
-          <nav>
-              <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="campaign.html">Campaigns</a></li>
-                  <li><a href="events.html">Events</a></li>
-                  <li><a href="reports.html">Reports</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
-              </ul>
-          </nav><br><br><br>
+<html lang="en">
 
-      
-            <h1 align="center">Contact Us</h1>
-        
-    
-        <main>
-            <section class="contact-info">
-                <h2>Contact Information</h2>
-                <p>Email: contact@example.com</p>
-                <p>Phone: +1 (123) 456-7890</p>
-                <p>Address: 123 Main Street, City, Country</p>
-            </section>
-    
-            <section class="contact-form">
-                <h2>Contact Form</h2><br><br>
-                <form action="submit_form.php" method="POST">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required><br><br>
-    
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required><br><br>
-    
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea><br><br>
-    
-                    <button type="submit">Submit</button>
-                </form>
-            </section>
-        </main>
-    
-        <footer>
-            <p>&copy; 20XX Your Website Name</p>
-        </footer>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Messages | Firebase</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
 
+<body>
+    <header>
+        <h1>Welcome to Women's Campaign Management System</h1>
+    </header>
 
-        <script src="" async defer></script>
-    </body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="campaign.html">Campaigns</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="reports.html">Reports</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav><br><br><br>
+
+    <h1 align="center">Contact Us</h1>
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <p>Email: contact@example.com</p>
+        <p>Phone: +1 (123) 456-7890</p>
+        <p>Address: 123 Main Street, City, Country</p>
+    </section><br><br>
+
+    <div class="container">
+        <form action="" id="contactForm">
+            <div class="alert">Your message sent</div>
+
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="Your name...." required />
+            </div>
+
+            <div class="inputBox">
+                <input type="email" id="emailid" placeholder="Your Email....."  required/>
+            </div>
+
+            <div class="inputBox">
+                <textarea id="msgContent" cols="30" rows="10" placeholder="Message" required></textarea>
+            </div>
+
+            <div class="inputBox">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div><br><br><br>
+    <footer>
+        <p>&copy; 2023 Women Campaign</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./contactus.js"></script>
+</body>
+
 </html>
-
-

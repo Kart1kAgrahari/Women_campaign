@@ -9,8 +9,7 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-            <marquee>  <h1>Welcome to Women's Campaign Management System</h1></marquee>
+        <header><h1>Welcome to Women's Campaign Management System</h1>
           </header>
         
           <nav>
@@ -27,26 +26,28 @@
           <main>
             <section id="create-campaign">
                 <h2>Create a New Campaign</h2><br><br>
-                <form action="save_campaign.php" method="POST">
-                    <label for="campaign-title">Campaign Title:</label>
-                    <input type="text" id="campaign-title" name="campaign-title" required><br><br><br>
+                <div class="alert">Your message sent</div>
+                <form id="campaignForm" action="">
+                    <label>Campaign Title:</label>
+                    <input type="text" id="campaigntitle" name="campaign-title" required><br><br><br>
                 
-                    <label for="campaign-description">Campaign Description:</label>
-                    <textarea id="campaign-description" name="campaign-description" rows="4" required></textarea><br><br><br>
+                    <label>Campaign Description:</label>
+                    <textarea id="campaigndescription" name="campaign-description" rows="4" required></textarea><br><br><br>
                 
-                    <label for="campaign-date">Campaign Date:</label>
-                    <input type="date" id="campaign-date" name="campaign-date" required><br><br><br>
+                    <label>Campaign Date:</label>
+                    <input type="date" id="campaigndate" name="campaign-date" required><br><br><br>
                 
-                    <input type="submit" value="Create Campaign">
+                    <button type="submit">Create Campaign</button>
                 </form>
                 
             </section>
-        </main><br><br><br><br><br><br><br>
+        </main><br><br><br><br><br><br><br><br><br><br>
         <footer>
-            <p>&copy; 20XX Women Campaign</p>
+            <p>&copy; 2023 Women Campaign</p>
         </footer>
 
-        <script src="" async defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+        <script src="./campaign.js"></script>
     </body>
 </html>
 
