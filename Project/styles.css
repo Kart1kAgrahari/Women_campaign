@@ -140,7 +140,7 @@ footer {
 
 .alert {
   display: none;
-  background-color: #4CAF50;
+  background-color: #00109d;
   color: #fff;
   text-align: center;
   padding: 10px;
@@ -249,7 +249,7 @@ footer {
 
 .alert{
     width: 100%;
-    background: rgb(0, 255, 106);
+    background: rgb(0, 9, 139);
     padding: 10px 20px;
     border-radius: 5px;
     text-align: center;
