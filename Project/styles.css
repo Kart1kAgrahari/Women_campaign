@@ -59,9 +59,14 @@ footer {
     padding: 10px;
     position: bottom;
 }
-.carousel-item{
-    
-    height:400px;
+
+.carousel-inner{
+    /* height: 400px; */
+}
+.carousel-item {
+    object-fit:cover; /* Ensure images cover the entire carousel item */
+     height: 80%; /*ZFill the entire height of the carousel item */
+    width: 100%; /* Fill the entire width of the carousel item */
 }
 
 /* Style individual events */
